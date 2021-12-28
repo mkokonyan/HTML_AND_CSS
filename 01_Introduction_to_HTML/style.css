@@ -1,0 +1,44 @@
+body {
+  background-color: blanchedalmond;
+}
+
+#my-heading {
+  text-align: center;
+  color: rgb(248, 206, 248);
+  background-color: rgb(255, 119, 22);
+}
+
+
+.btn {
+    background-color: orange;
+    color: white;
+    border-radius:  12px;
+    padding: 6px 12px;
+    border: none
+}
+
+button.btn {
+    background-color: red;
+}
+
+.btn:hover {
+    background: pink;
+    cursor: pointer;
+}
+
+#main-heading {
+    color: royalblue
+}
+
+.header {
+    color: violet;
+}
+
+h2 {
+    color: red;
+}
+
+#my-example {
+    padding: 100px;
+    border: 1px solid black; 
+}
