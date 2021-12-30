@@ -1,0 +1,24 @@
+html {
+  font-family: Helvetica, snas-serif;
+  background: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
+  padding: 50px;
+}
+
+img {
+  width: 740px;
+}
+
+article {
+  width: 1000px;
+}
+
+aside {
+  float: right;
+  position: relative;
+  top: -35px;
+  left: -150px;
+  width: 350px;
+  padding: 10px;
+  margin-left: 0;
+}
