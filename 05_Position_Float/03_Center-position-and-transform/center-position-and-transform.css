@@ -1,0 +1,46 @@
+body {
+  background: rgb(238, 238, 238);
+  font-family: Georgia, serif;
+  font-size: 1em;
+}
+
+section {
+  position: relative;
+}
+
+div {
+  background: rgb(255, 255, 255);
+  width: 500px;
+  position: relative;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+h1, p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+button {
+  background: rgb(0, 153, 0);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 36px;
+  float: right
+}
+
+div, button {
+    display: inline-block;
+}
