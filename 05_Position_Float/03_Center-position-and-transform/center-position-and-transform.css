@@ -1,46 +1,57 @@
 body {
   background: rgb(238, 238, 238);
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Georgia, serif;
   font-size: 1em;
+  line-height: 1.2;
 }
 
-section {
-  position: relative;
-}
-
-div {
+.card {
   background: rgb(255, 255, 255);
-  width: 500px;
-  position: relative;
-}
-
-h1 {
-    font-size: 1.2em;
-}
-h1, p {
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-section {
+  max-width: 450px;
+  box-shadow: 1px 1px 7px 2px gray;
+  border-radius: 6px;
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 10px;
-  max-width: 400px;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 
-button {
+.card-image img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 30px;
+  text-align: right;
+}
+
+.card-content-title,
+.card-content-description {
+  text-align: left;
+}
+
+.btn {
   background: rgb(0, 153, 0);
   color: white;
   border: none;
-  border-radius: 3px;
-  padding: 10px 15px;
-  margin: 36px;
-  float: right
+  border-radius: 4px;
+  padding: 6px 8px;
+  font-size: 0.8em;
 }
 
-div, button {
-    display: inline-block;
+.card-content-description {
+  font-size: 0.7em;
+  margin-bottom: 20px;
 }
