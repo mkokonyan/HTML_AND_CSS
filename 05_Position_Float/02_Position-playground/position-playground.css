@@ -1,47 +1,57 @@
 @import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
 
 body {
-  max-width: 1000px;
-  margin: 0 auto;
-  height: 100%;
-  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-.viewport:nth-child(1) {
+.viewport {
+  height: 100vh;
+  position: relative;
+}
+
+.blue {
+  background: rgb(24, 91, 157);
   background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(253, 187, 45, 1) 100%
+    90deg,
+    rgba(24, 91, 157, 1) 0%,
+    rgba(44, 146, 159, 1) 57%,
+    rgba(66, 205, 162, 1) 100%
   );
 }
 
-.viewport:nth-child(2) {
-  background: radial-gradient(
-    circle,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(252, 70, 107, 1) 100%
+.orange {
+  background: rgb(168, 51, 118);
+  background: linear-gradient(
+    90deg,
+    rgba(168, 51, 118, 1) 0%,
+    rgba(188, 90, 69, 1) 49%,
+    rgba(210, 129, 19, 1) 100%
   );
 }
 
 .card {
-  position: relative;
-  height: 500px;
-}
-
-.card img {
-  position: relative;
-  display: inline-block;
+  margin:0;
+  padding:0;
+  width: fit-content;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
+  transform: translate(-50%,-50%);
 }
 
-i {
+img {
+  border-radius: 6px;
+  box-shadow: 0px 0px 8px 1px gray;
+}
+
+.card-icon {
+  position: relative;
+  left: -36px;
+  top:-14px
+}
+
+.card-icon {
   color: white;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
+  font-size: 22px;
 }
