@@ -1,0 +1,30 @@
+body {
+  padding: 100px;
+  display: flex;
+  background: #eeeeee;
+}
+li {
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  margin: 20px;
+  padding: 20px;
+  border: 10px solid black;
+  box-shadow: 0px 0px 14px 7px gray;
+  width: 20%;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
