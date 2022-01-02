@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  max-width: 100vh;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 7px gray;
+  margin: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.img1 {
+  width: 150px;
+}
+.img3 {
+  width: 150px;
+}
+.img4 {
+  width: 150px;
+}
+
